@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 //fridvince@gmx.us ENJOY!
 
-public class UISwipeLoop : MonoBehaviour
+public class UISwipingGroup : MonoBehaviour
 {
     [System.Serializable] public class SwipeEvent
     {

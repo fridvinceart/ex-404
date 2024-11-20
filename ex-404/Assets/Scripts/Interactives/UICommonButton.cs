@@ -4,7 +4,7 @@ using UnityEngine.Events;
 //fridvince@gmx.us ENJOY!
 
 [RequireComponent(typeof(CanvasRenderer))]
-public class UIMainBtn : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
+public class UICommonButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
 {
     public Vector3 normalScale = Vector3.one;
     public Vector3 highlightedScale = Vector3.one;

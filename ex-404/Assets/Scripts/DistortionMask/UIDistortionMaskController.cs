@@ -3,7 +3,7 @@ using UnityEngine.UI;
 //fidvince@gmx.us ENJOY!
 
 [RequireComponent(typeof(Image))]
-public class UIMaskImageController : MonoBehaviour
+public class UIDistortionMaskController : MonoBehaviour
 {
     public Material customMaterial;
     public Vector2 TopLeftOffset = Vector2.zero;

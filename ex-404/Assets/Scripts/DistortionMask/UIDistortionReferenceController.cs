@@ -3,7 +3,7 @@ using UnityEngine.UI;
 //fridvince@gmx.us ENJOY!
 
 [RequireComponent(typeof(Image))] // Ensure the component has an Image
-public class UIStensilReferenceModifier : MonoBehaviour
+public class UIDistortionReferenceController : MonoBehaviour
 {
     [Range(0, 255)] // Adjust the range as needed
     public int stencilReference = 1; // Default value

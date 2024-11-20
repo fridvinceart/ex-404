@@ -1,7 +1,7 @@
 using UnityEngine;
 //fidvince@gmx.us ENJOY!
 
-public class WorldInputRotate : MonoBehaviour
+public class CommonInputRotation : MonoBehaviour
 {
     public Transform targetTransform;
     public float rotationSpeed = 1.0f;

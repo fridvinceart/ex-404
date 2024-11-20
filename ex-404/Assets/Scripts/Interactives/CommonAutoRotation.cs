@@ -1,7 +1,7 @@
 using UnityEngine;
 //fidvince@gmx.us ENJOY!
 
-public class WorldAutoRotation : MonoBehaviour
+public class CommonAutoRotation : MonoBehaviour
 {
     public Transform targetTransform;
     public Vector3 rotationSpeed = new Vector3(10, 10, 10);

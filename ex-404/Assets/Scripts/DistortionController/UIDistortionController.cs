@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 [ExecuteAlways]
 [RequireComponent(typeof(Image))]
-public class UISlicedImageController : MonoBehaviour
+public class UIDistortionController : MonoBehaviour
 {
     [Header("Distortion Offset Animation Curves")]
     public AnimationCurve topLeftCurveX = AnimationCurve.Linear(0, 0, 1, 0);
