@@ -1,4 +1,4 @@
-Shader "fridvince/DistortedChildMask"
+Shader "fridvince/DistortionChild"
 {
     Properties
     {

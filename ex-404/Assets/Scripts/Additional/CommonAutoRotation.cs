@@ -1,12 +1,13 @@
 using UnityEngine;
-//fidvince@gmx.us ENJOY!
+//fridvince@gmx.us ENJOY!
 
 public class CommonAutoRotation : MonoBehaviour
 {
     public Transform targetTransform;
-    public Vector3 rotationSpeed = new Vector3(10, 10, 10);
+    public Vector3 rotationSpeed = new Vector3(0, 0, 0);
     public bool loop = false;
     public bool resetOnStop = true;
+    public float rotationThreshold = 360f;
     private bool rotate = false;
     private Vector3 startRotation;
     private Vector3 initialRotation;
@@ -15,8 +16,7 @@ public class CommonAutoRotation : MonoBehaviour
     {
         if (targetTransform != null)
         {
-            startRotation = targetTransform.eulerAngles;
-            initialRotation = Vector3.zero;
+            initialRotation = targetTransform.eulerAngles;
         }
         else
         {
@@ -29,12 +29,11 @@ public class CommonAutoRotation : MonoBehaviour
         if (rotate)
         {
             Vector3 rotationStep = rotationSpeed * Time.deltaTime;
-
             targetTransform.Rotate(rotationStep);
 
             if (loop)
             {
-                targetTransform.Rotate(rotationStep);
+                return;
             }
             else if (ReachedRotationThreshold())
             {
@@ -50,8 +49,10 @@ public class CommonAutoRotation : MonoBehaviour
 
     private bool ReachedRotationThreshold()
     {
-
-        return false;
+        Vector3 deltaRotation = targetTransform.eulerAngles - startRotation;
+        return Mathf.Abs(deltaRotation.x) >= rotationThreshold ||
+               Mathf.Abs(deltaRotation.y) >= rotationThreshold ||
+               Mathf.Abs(deltaRotation.z) >= rotationThreshold;
     }
 
     private void ResetRotation()
@@ -79,5 +80,13 @@ public class CommonAutoRotation : MonoBehaviour
         {
             ResetRotation();
         }
+    }
+    public void SetRotationSpeed(Vector3 newSpeed)
+    {
+        rotationSpeed = newSpeed;
+    }
+    public void SetRotationThreshold(float newThreshold)
+    {
+        rotationThreshold = newThreshold;
     }
 }
