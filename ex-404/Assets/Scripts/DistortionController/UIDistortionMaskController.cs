@@ -1,43 +1,73 @@
 using UnityEngine;
 using UnityEngine.UI;
-//fidvince@gmx.us ENJOY!
 
+[ExecuteAlways]
 [RequireComponent(typeof(Image))]
 public class UIDistortionMaskController : MonoBehaviour
 {
-    public Material customMaterial;
-    public Vector2 TopLeftOffset = Vector2.zero;
-    public Vector2 TopRightOffset = Vector2.zero;
-    public Vector2 BottomLeftOffset = Vector2.zero;
-    public Vector2 BottomRightOffset = Vector2.zero;
+    [SerializeField] private Material customMaterial;
+    [SerializeField] private Vector2 topLeftOffset = Vector2.zero;
+    [SerializeField] private Vector2 topRightOffset = Vector2.zero;
+    [SerializeField] private Vector2 bottomLeftOffset = Vector2.zero;
+    [SerializeField] private Vector2 bottomRightOffset = Vector2.zero;
 
-    private Material materialInstance;
-    private Image imageComponent;
+    private Material _materialInstance;
+    private Image _imageComponent;
 
-    void OnEnable()
+    private static readonly int TopLeftOffsetID = Shader.PropertyToID("_TopLeftOffset");
+    private static readonly int TopRightOffsetID = Shader.PropertyToID("_TopRightOffset");
+    private static readonly int BottomLeftOffsetID = Shader.PropertyToID("_BottomLeftOffset");
+    private static readonly int BottomRightOffsetID = Shader.PropertyToID("_BottomRightOffset");
+
+    private void OnEnable()
     {
-        imageComponent = GetComponent<Image>();
-
+        _imageComponent = GetComponent<Image>();
+        if (_imageComponent == null)
+        {
+            Debug.LogError("Image component is missing.");
+            return;
+        }
 
         ApplyMaterial();
         UpdateMaterialProperties();
     }
 
-    void OnRectTransformDimensionsChange()
+    private void OnDisable()
     {
+        if (_materialInstance != null)
+        {
+            if (Application.isPlaying)
+            {
+                Destroy(_materialInstance);
+            }
+            else
+            {
+                DestroyImmediate(_materialInstance);
+            }
+            _materialInstance = null;
+        }
 
+        if (_imageComponent != null)
+        {
+            _imageComponent.material = null;
+        }
+    }
+
+
+    private void OnRectTransformDimensionsChange()
+    {
         UpdateMaterialProperties();
     }
 
-    void ApplyMaterial()
+    private void ApplyMaterial()
     {
-        if (imageComponent.material != null && imageComponent.material.shader == Shader.Find("fridvince/UIDistortedMask"))
+        if (_imageComponent.material != null && _imageComponent.material.shader.name == "fridvince/UIDistortedMask")
         {
-            materialInstance = Instantiate(imageComponent.material);
+            _materialInstance = Instantiate(_imageComponent.material);
         }
         else if (customMaterial != null)
         {
-            materialInstance = Instantiate(customMaterial);
+            _materialInstance = Instantiate(customMaterial);
         }
         else
         {
@@ -45,22 +75,24 @@ public class UIDistortionMaskController : MonoBehaviour
             return;
         }
 
-        imageComponent.material = materialInstance;
+        _imageComponent.material = _materialInstance;
     }
 
-    void UpdateMaterialProperties()
+    private void UpdateMaterialProperties()
     {
-        if (materialInstance != null)
-        {
-            materialInstance.SetVector("_TopLeftOffset", TopLeftOffset);
-            materialInstance.SetVector("_TopRightOffset", TopRightOffset);
-            materialInstance.SetVector("_BottomLeftOffset", BottomLeftOffset);
-            materialInstance.SetVector("_BottomRightOffset", BottomRightOffset);
-        }
+        if (_materialInstance == null)
+            return;
+
+        _materialInstance.SetVector(TopLeftOffsetID, topLeftOffset);
+        _materialInstance.SetVector(TopRightOffsetID, topRightOffset);
+        _materialInstance.SetVector(BottomLeftOffsetID, bottomLeftOffset);
+        _materialInstance.SetVector(BottomRightOffsetID, bottomRightOffset);
     }
 
-    void Update()
+    private void Update()
     {
+        // Update material properties only if offsets are changing frequently
+        // Remove this if offsets are static or change on specific events.
         UpdateMaterialProperties();
     }
 }

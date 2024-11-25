@@ -164,6 +164,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: -40}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &1780316643841956477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1618,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: -80}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &6928068803635376298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,6 +1711,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: -50}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &6955235638620068587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,10 +1824,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  TopLeftOffset: {x: 0.02, y: 0}
-  TopRightOffset: {x: 0, y: 0.08}
-  BottomLeftOffset: {x: 0, y: 0.04}
-  BottomRightOffset: {x: -0.02, y: -0.04}
+  topLeftOffset: {x: 0.02, y: 0}
+  topRightOffset: {x: 0, y: 0.04}
+  bottomLeftOffset: {x: -0.02, y: 0}
+  bottomRightOffset: {x: 0.04, y: 0}
 --- !u!114 &941365175019070041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1841,6 +1844,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: -120}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &7550528454964932472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,10 +1957,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  TopLeftOffset: {x: -0.02, y: 0.08}
-  TopRightOffset: {x: 0, y: 0}
-  BottomLeftOffset: {x: -0.04, y: -0.06}
-  BottomRightOffset: {x: 0.04, y: 0}
+  topLeftOffset: {x: -0.02, y: 0.04}
+  topRightOffset: {x: -0.02, y: -0.02}
+  bottomLeftOffset: {x: 0.02, y: 0}
+  bottomRightOffset: {x: 0.02, y: 0}
 --- !u!114 &5702757170732193292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,6 +1977,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: 50}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &8127279549165885928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2070,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: 120}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &8390683920143910498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,10 +2183,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  TopLeftOffset: {x: -0.04, y: 0.12}
-  TopRightOffset: {x: 0.04, y: 0.06}
-  BottomLeftOffset: {x: 0.02, y: -0.08}
-  BottomRightOffset: {x: 0, y: 0}
+  topLeftOffset: {x: -0.04, y: -0.04}
+  topRightOffset: {x: 0.04, y: 0.04}
+  bottomLeftOffset: {x: 0, y: 0}
+  bottomRightOffset: {x: 0.02, y: 0}
 --- !u!114 &5043286342724820374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2197,6 +2203,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: 40}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &8417917143463209377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,6 +2296,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: 20}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &8609197538609840019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,10 +2484,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  TopLeftOffset: {x: 0, y: 0}
-  TopRightOffset: {x: 0.04, y: -0.08}
-  BottomLeftOffset: {x: 0, y: -0.08}
-  BottomRightOffset: {x: 0, y: 0}
+  topLeftOffset: {x: -0.02, y: 0.02}
+  topRightOffset: {x: 0.04, y: -0.02}
+  bottomLeftOffset: {x: 0, y: 0}
+  bottomRightOffset: {x: 0, y: 0}
 --- !u!114 &8195844993874110484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2496,6 +2504,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: 80}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
 --- !u!1 &8985533407064806704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2608,10 +2617,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  TopLeftOffset: {x: 0.02, y: 0}
-  TopRightOffset: {x: 0, y: 0.06}
-  BottomLeftOffset: {x: -0.02, y: 0.02}
-  BottomRightOffset: {x: 0, y: -0.06}
+  topLeftOffset: {x: 0.02, y: -0.02}
+  topRightOffset: {x: 0, y: 0}
+  bottomLeftOffset: {x: 0, y: 0}
+  bottomRightOffset: {x: 0.02, y: 0}
 --- !u!114 &4083908382727517679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,3 +2637,4 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: -20}
   loop: 1
   resetOnStop: 1
+  rotationThreshold: 360
