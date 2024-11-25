@@ -21,61 +21,33 @@ public class UIDistortionMaskController : MonoBehaviour
 
     private void OnEnable()
     {
-        _imageComponent = GetComponent<Image>();
-        if (_imageComponent == null)
-        {
-            Debug.LogError("Image component is missing.");
-            return;
-        }
+        if (!_imageComponent)
+            _imageComponent = GetComponent<Image>();
 
         ApplyMaterial();
         UpdateMaterialProperties();
     }
 
-    private void OnDisable()
+    private void ApplyMaterial()
     {
-        if (_materialInstance != null)
+        if (_materialInstance == null)
         {
-            if (Application.isPlaying)
+            if (customMaterial != null)
             {
-                Destroy(_materialInstance);
+                _materialInstance = Instantiate(customMaterial);
+            }
+            else if (_imageComponent.material != null && _imageComponent.material.shader.name == "fridvince/UIDistortionMask")
+            {
+                _materialInstance = Instantiate(_imageComponent.material);
             }
             else
             {
-                DestroyImmediate(_materialInstance);
+                Debug.LogError("No material assigned to the Image or custom material provided.");
+                return;
             }
-            _materialInstance = null;
-        }
 
-        if (_imageComponent != null)
-        {
-            _imageComponent.material = null;
+            _imageComponent.material = _materialInstance;
         }
-    }
-
-
-    private void OnRectTransformDimensionsChange()
-    {
-        UpdateMaterialProperties();
-    }
-
-    private void ApplyMaterial()
-    {
-        if (_imageComponent.material != null && _imageComponent.material.shader.name == "fridvince/UIDistortedMask")
-        {
-            _materialInstance = Instantiate(_imageComponent.material);
-        }
-        else if (customMaterial != null)
-        {
-            _materialInstance = Instantiate(customMaterial);
-        }
-        else
-        {
-            Debug.LogError("No material assigned to the Image or custom material provided.");
-            return;
-        }
-
-        _imageComponent.material = _materialInstance;
     }
 
     private void UpdateMaterialProperties()
@@ -89,10 +61,15 @@ public class UIDistortionMaskController : MonoBehaviour
         _materialInstance.SetVector(BottomRightOffsetID, bottomRightOffset);
     }
 
-    private void Update()
+    private void OnRectTransformDimensionsChange()
     {
-        // Update material properties only if offsets are changing frequently
-        // Remove this if offsets are static or change on specific events.
         UpdateMaterialProperties();
     }
+
+#if UNITY_EDITOR
+    private void OnValidate()
+    {
+        UpdateMaterialProperties();
+    }
+#endif
 }

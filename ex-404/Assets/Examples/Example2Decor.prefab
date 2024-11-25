@@ -1824,10 +1824,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  topLeftOffset: {x: 0.02, y: 0}
-  topRightOffset: {x: 0, y: 0.04}
+  topLeftOffset: {x: -0.04, y: 0.06}
+  topRightOffset: {x: 0.04, y: -0.02}
   bottomLeftOffset: {x: -0.02, y: 0}
-  bottomRightOffset: {x: 0.04, y: 0}
+  bottomRightOffset: {x: 0, y: 0}
 --- !u!114 &941365175019070041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1957,10 +1957,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  topLeftOffset: {x: -0.02, y: 0.04}
-  topRightOffset: {x: -0.02, y: -0.02}
-  bottomLeftOffset: {x: 0.02, y: 0}
-  bottomRightOffset: {x: 0.02, y: 0}
+  topLeftOffset: {x: 0.02, y: -0.02}
+  topRightOffset: {x: 0.02, y: 0.04}
+  bottomLeftOffset: {x: -0.02, y: 0}
+  bottomRightOffset: {x: 0, y: 0}
 --- !u!114 &5702757170732193292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2183,9 +2183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  topLeftOffset: {x: -0.04, y: -0.04}
-  topRightOffset: {x: 0.04, y: 0.04}
-  bottomLeftOffset: {x: 0, y: 0}
+  topLeftOffset: {x: 0, y: 0}
+  topRightOffset: {x: 0, y: 0.04}
+  bottomLeftOffset: {x: -0.02, y: 0}
   bottomRightOffset: {x: 0.02, y: 0}
 --- !u!114 &5043286342724820374
 MonoBehaviour:
@@ -2484,9 +2484,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  topLeftOffset: {x: -0.02, y: 0.02}
-  topRightOffset: {x: 0.04, y: -0.02}
-  bottomLeftOffset: {x: 0, y: 0}
+  topLeftOffset: {x: 0, y: 0.02}
+  topRightOffset: {x: -0.02, y: 0.08}
+  bottomLeftOffset: {x: -0.02, y: 0}
   bottomRightOffset: {x: 0, y: 0}
 --- !u!114 &8195844993874110484
 MonoBehaviour:
@@ -2617,10 +2617,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customMaterial: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
-  topLeftOffset: {x: 0.02, y: -0.02}
-  topRightOffset: {x: 0, y: 0}
+  topLeftOffset: {x: -0.02, y: 0.06}
+  topRightOffset: {x: 0.02, y: -0.02}
   bottomLeftOffset: {x: 0, y: 0}
-  bottomRightOffset: {x: 0.02, y: 0}
+  bottomRightOffset: {x: 0, y: 0}
 --- !u!114 &4083908382727517679
 MonoBehaviour:
   m_ObjectHideFlags: 0

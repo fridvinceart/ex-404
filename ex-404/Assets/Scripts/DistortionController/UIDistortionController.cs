@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-//fidvince@gmx.us ENJOY!
 
 [ExecuteAlways]
 [RequireComponent(typeof(Image))]

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UIDistortiedMask
+  m_Name: UIDistortionMask
   m_Shader: {fileID: 4800000, guid: 8b17a7b5c004149b4ad652d57c4a4358, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
