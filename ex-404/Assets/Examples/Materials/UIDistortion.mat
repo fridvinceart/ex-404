@@ -97,10 +97,10 @@ Material:
     - _AlphaClip: 0
     - _AlphaCutoff: 1
     - _Blend: 0
-    - _BorderBottom: 0.6
-    - _BorderLeft: 0.6
-    - _BorderRight: 0.6
-    - _BorderTop: 0.6
+    - _BorderBottom: 0.4
+    - _BorderLeft: 0.4
+    - _BorderRight: 0.4
+    - _BorderTop: 0.4
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -131,7 +131,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Border: {r: 0.39, g: 1.49, b: 0, a: 0}
     - _BottomEdgeOffset: {r: -1, g: 0, b: 0, a: 0}
-    - _BottomLeftOffset: {r: -0.04, g: 0.08, b: 0, a: 0}
+    - _BottomLeftOffset: {r: 0, g: 0, b: 0, a: 0}
     - _BottomRightOffset: {r: 0, g: 0, b: 0, a: 0}
     - _CenterOffset: {r: 1.31, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -144,7 +144,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TintColor: {r: 1, g: 1, b: 1, a: 1}
     - _TopEdgeOffset: {r: 4.8, g: 0, b: 0, a: 0}
-    - _TopLeftOffset: {r: -0.12, g: -0.08, b: 0, a: 0}
-    - _TopRightOffset: {r: 0.08, g: 0, b: 0, a: 0}
+    - _TopLeftOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _TopRightOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
