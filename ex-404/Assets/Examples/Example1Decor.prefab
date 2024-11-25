@@ -1436,9 +1436,8 @@ GameObject:
   - component: {fileID: 8175967279813907307}
   - component: {fileID: 6755119196557501418}
   - component: {fileID: 4142559040583651888}
-  - component: {fileID: 3007588157867961100}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1767,26 +1766,6 @@ MonoBehaviour:
   borderBottom: 0.4
   borderRight: 0.4
   borderTop: 0.4
---- !u!114 &3007588157867961100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6955235638620068587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46dcd8eb4e9d47ef986822926478661, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalScale: {x: 1, y: 1, z: 1}
-  highlightedScale: {x: 1, y: 1, z: 1}
-  pressedScale: {x: 0.9, y: 0.9, z: 0.9}
-  disabledScale: {x: 1, y: 1, z: 1}
-  isInteractable: 1
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &7550528454964932472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,9 +1778,8 @@ GameObject:
   - component: {fileID: 8609638478725936940}
   - component: {fileID: 433734169509527461}
   - component: {fileID: 8603159069646176576}
-  - component: {fileID: 929487206858408915}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2121,26 +2099,6 @@ MonoBehaviour:
   borderBottom: 0.4
   borderRight: 0.4
   borderTop: 0.4
---- !u!114 &929487206858408915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7550528454964932472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46dcd8eb4e9d47ef986822926478661, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalScale: {x: 1, y: 1, z: 1}
-  highlightedScale: {x: 1, y: 1, z: 1}
-  pressedScale: {x: 0.9, y: 0.9, z: 0.9}
-  disabledScale: {x: 1, y: 1, z: 1}
-  isInteractable: 1
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &8127279549165885928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,9 +2248,8 @@ GameObject:
   - component: {fileID: 8536673693362762309}
   - component: {fileID: 1466613723563849478}
   - component: {fileID: 840897852568743438}
-  - component: {fileID: 8183233234882625297}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2621,26 +2578,6 @@ MonoBehaviour:
   borderBottom: 0.4
   borderRight: 0.4
   borderTop: 0.4
---- !u!114 &8183233234882625297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8390683920143910498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46dcd8eb4e9d47ef986822926478661, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalScale: {x: 1, y: 1, z: 1}
-  highlightedScale: {x: 1, y: 1, z: 1}
-  pressedScale: {x: 0.9, y: 0.9, z: 0.9}
-  disabledScale: {x: 1, y: 1, z: 1}
-  isInteractable: 1
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &8417917143463209377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2865,9 +2802,8 @@ GameObject:
   - component: {fileID: 3042104110540465828}
   - component: {fileID: 1833501076994135187}
   - component: {fileID: 8242953571979719287}
-  - component: {fileID: 1847310940187304255}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3187,26 +3123,6 @@ MonoBehaviour:
   borderBottom: 0.4
   borderRight: 0.4
   borderTop: 0.4
---- !u!114 &1847310940187304255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8732003742471253244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46dcd8eb4e9d47ef986822926478661, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalScale: {x: 1, y: 1, z: 1}
-  highlightedScale: {x: 1, y: 1, z: 1}
-  pressedScale: {x: 0.9, y: 0.9, z: 0.9}
-  disabledScale: {x: 1, y: 1, z: 1}
-  isInteractable: 1
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &8985533407064806704
 GameObject:
   m_ObjectHideFlags: 0
@@ -3219,9 +3135,8 @@ GameObject:
   - component: {fileID: 6324338011590293876}
   - component: {fileID: 4866064684965166876}
   - component: {fileID: 6531228946676402534}
-  - component: {fileID: 8807134152609518041}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3550,23 +3465,3 @@ MonoBehaviour:
   borderBottom: 0.4
   borderRight: 0.4
   borderTop: 0.4
---- !u!114 &8807134152609518041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8985533407064806704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46dcd8eb4e9d47ef986822926478661, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalScale: {x: 1, y: 1, z: 1}
-  highlightedScale: {x: 1, y: 1, z: 1}
-  pressedScale: {x: 0.9, y: 0.9, z: 0.9}
-  disabledScale: {x: 1, y: 1, z: 1}
-  isInteractable: 1
-  onClick:
-    m_PersistentCalls:
-      m_Calls: []

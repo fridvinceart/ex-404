@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056778138586626864}
   m_Layer: 5
-  m_Name: Container
+  m_Name: rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1181,7 +1181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5668563448686155670}
   m_Layer: 5
-  m_Name: Container
+  m_Name: rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1392,7 +1392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7833752267478872329}
   m_Layer: 5
-  m_Name: Container
+  m_Name: rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1428,7 +1428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392201443267519770}
   m_Layer: 5
-  m_Name: Container
+  m_Name: rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1464,7 +1464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 19863780691931367}
   m_Layer: 5
-  m_Name: Container
+  m_Name: rotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1727,7 +1727,7 @@ GameObject:
   - component: {fileID: 8602925108335483564}
   - component: {fileID: 941365175019070041}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1860,7 +1860,7 @@ GameObject:
   - component: {fileID: 387199549386659333}
   - component: {fileID: 5702757170732193292}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -2086,7 +2086,7 @@ GameObject:
   - component: {fileID: 4602278388438317453}
   - component: {fileID: 5043286342724820374}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2132,7 +2132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -2387,7 +2387,7 @@ GameObject:
   - component: {fileID: 4528802305953591891}
   - component: {fileID: 8195844993874110484}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2433,7 +2433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -2520,7 +2520,7 @@ GameObject:
   - component: {fileID: 723409782571540426}
   - component: {fileID: 4083908382727517679}
   m_Layer: 5
-  m_Name: Button
+  m_Name: content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2566,7 +2566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 32448462d21704a3ca10e93b35aa2b18, type: 2}
+  m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}

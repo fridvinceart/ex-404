@@ -312,6 +312,381 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExampleDecor
       objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291233}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291232}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291236}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291235}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291234}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291233}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291232}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291236}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291235}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6703607123634291234}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onSelected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[0].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[1].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[2].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[3].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020820682839521153, guid: 7a90e10215514418f8206b82acbf2f83,
+        type: 3}
+      propertyPath: swipeEvents.Array.data[4].onDeselected.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4528802305953591891, guid: 7a90e10215514418f8206b82acbf2f83,
         type: 3}
       propertyPath: _topLeftOffset.x
@@ -1219,7 +1594,575 @@ Material:
     - _TopRightOffset: {r: 0.04, g: -0.02, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!21 &1269788800
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIDistortionMask(Clone)
+  m_Shader: {fileID: 4800000, guid: 8b17a7b5c004149b4ad652d57c4a4358, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 49423a41c0cb7442d85a96815c13bf75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 1
+    - _Blend: 0
+    - _BorderBottom: 0.6
+    - _BorderLeft: 0.6
+    - _BorderRight: 0.6
+    - _BorderTop: 0.6
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OutlineSize: 4
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _UseAlphaCutoff: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Border: {r: 0.39, g: 1.49, b: 0, a: 0}
+    - _BottomEdgeOffset: {r: -1, g: 0, b: 0, a: 0}
+    - _BottomLeftOffset: {r: -0.02, g: 0, b: 0, a: 0}
+    - _BottomRightOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _CenterOffset: {r: 1.31, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LeftEdgeOffset: {r: 2.46, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RightEdgeOffset: {r: 2.08, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowOffset: {r: 4, g: 4, b: 4, a: 4}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopEdgeOffset: {r: 4.8, g: 0, b: 0, a: 0}
+    - _TopLeftOffset: {r: 0.02, g: -0.02, b: 0, a: 0}
+    - _TopRightOffset: {r: 0.02, g: 0.04, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1313457938
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIDistortionMask(Clone)
+  m_Shader: {fileID: 4800000, guid: 8b17a7b5c004149b4ad652d57c4a4358, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 49423a41c0cb7442d85a96815c13bf75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 1
+    - _Blend: 0
+    - _BorderBottom: 0.6
+    - _BorderLeft: 0.6
+    - _BorderRight: 0.6
+    - _BorderTop: 0.6
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OutlineSize: 4
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _UseAlphaCutoff: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Border: {r: 0.39, g: 1.49, b: 0, a: 0}
+    - _BottomEdgeOffset: {r: -1, g: 0, b: 0, a: 0}
+    - _BottomLeftOffset: {r: -0.02, g: 0, b: 0, a: 0}
+    - _BottomRightOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _CenterOffset: {r: 1.31, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LeftEdgeOffset: {r: 2.46, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RightEdgeOffset: {r: 2.08, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowOffset: {r: 4, g: 4, b: 4, a: 4}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopEdgeOffset: {r: 4.8, g: 0, b: 0, a: 0}
+    - _TopLeftOffset: {r: -0.04, g: 0.06, b: 0, a: 0}
+    - _TopRightOffset: {r: 0.04, g: -0.02, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!21 &1326829641
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIDistortionMask(Clone)
+  m_Shader: {fileID: 4800000, guid: 8b17a7b5c004149b4ad652d57c4a4358, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 49423a41c0cb7442d85a96815c13bf75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 1
+    - _Blend: 0
+    - _BorderBottom: 0.6
+    - _BorderLeft: 0.6
+    - _BorderRight: 0.6
+    - _BorderTop: 0.6
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OutlineSize: 4
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _UseAlphaCutoff: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Border: {r: 0.39, g: 1.49, b: 0, a: 0}
+    - _BottomEdgeOffset: {r: -1, g: 0, b: 0, a: 0}
+    - _BottomLeftOffset: {r: -0.02, g: 0, b: 0, a: 0}
+    - _BottomRightOffset: {r: 0.02, g: 0, b: 0, a: 0}
+    - _CenterOffset: {r: 1.31, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LeftEdgeOffset: {r: 2.46, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RightEdgeOffset: {r: 2.08, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowOffset: {r: 4, g: 4, b: 4, a: 4}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopEdgeOffset: {r: 4.8, g: 0, b: 0, a: 0}
+    - _TopLeftOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _TopRightOffset: {r: 0, g: 0.04, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1424406637
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIDistortionMask(Clone)
+  m_Shader: {fileID: 4800000, guid: 8b17a7b5c004149b4ad652d57c4a4358, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 49423a41c0cb7442d85a96815c13bf75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 1
+    - _Blend: 0
+    - _BorderBottom: 0.6
+    - _BorderLeft: 0.6
+    - _BorderRight: 0.6
+    - _BorderTop: 0.6
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OutlineSize: 4
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _UseAlphaCutoff: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Border: {r: 0.39, g: 1.49, b: 0, a: 0}
+    - _BottomEdgeOffset: {r: -1, g: 0, b: 0, a: 0}
+    - _BottomLeftOffset: {r: -0.02, g: 0, b: 0, a: 0}
+    - _BottomRightOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _CenterOffset: {r: 1.31, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LeftEdgeOffset: {r: 2.46, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RightEdgeOffset: {r: 2.08, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowOffset: {r: 4, g: 4, b: 4, a: 4}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopEdgeOffset: {r: 4.8, g: 0, b: 0, a: 0}
+    - _TopLeftOffset: {r: 0, g: 0.02, b: 0, a: 0}
+    - _TopRightOffset: {r: -0.02, g: 0.08, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &1510735126
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -1367,6 +2310,148 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 6703607123634291231}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &2075671180
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIDistortionMask(Clone)
+  m_Shader: {fileID: 4800000, guid: 8b17a7b5c004149b4ad652d57c4a4358, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 49423a41c0cb7442d85a96815c13bf75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 1
+    - _Blend: 0
+    - _BorderBottom: 0.6
+    - _BorderLeft: 0.6
+    - _BorderRight: 0.6
+    - _BorderTop: 0.6
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OutlineSize: 4
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _UseAlphaCutoff: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Border: {r: 0.39, g: 1.49, b: 0, a: 0}
+    - _BottomEdgeOffset: {r: -1, g: 0, b: 0, a: 0}
+    - _BottomLeftOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _BottomRightOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _CenterOffset: {r: 1.31, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LeftEdgeOffset: {r: 2.46, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RightEdgeOffset: {r: 2.08, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowOffset: {r: 4, g: 4, b: 4, a: 4}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopEdgeOffset: {r: 4.8, g: 0, b: 0, a: 0}
+    - _TopLeftOffset: {r: -0.02, g: 0.06, b: 0, a: 0}
+    - _TopRightOffset: {r: 0.02, g: -0.02, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1001 &6703607123634291231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1435,6 +2520,36 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 046a100ddae9242f18e38d73b7f11190, type: 3}
+--- !u!1 &6703607123634291232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4477859798632485709, guid: 046a100ddae9242f18e38d73b7f11190,
+    type: 3}
+  m_PrefabInstance: {fileID: 6703607123634291231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6703607123634291233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6131648300319014616, guid: 046a100ddae9242f18e38d73b7f11190,
+    type: 3}
+  m_PrefabInstance: {fileID: 6703607123634291231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6703607123634291234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4464393758445833714, guid: 046a100ddae9242f18e38d73b7f11190,
+    type: 3}
+  m_PrefabInstance: {fileID: 6703607123634291231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6703607123634291235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4305711265837380284, guid: 046a100ddae9242f18e38d73b7f11190,
+    type: 3}
+  m_PrefabInstance: {fileID: 6703607123634291231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6703607123634291236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 587230936667486275, guid: 046a100ddae9242f18e38d73b7f11190,
+    type: 3}
+  m_PrefabInstance: {fileID: 6703607123634291231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
